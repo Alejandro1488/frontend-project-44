@@ -15,13 +15,12 @@
   "bugs": {
     "url": "https://github.com/Alejandro1488/frontend-project-44/issues"
   },
-  "homepage":  "https://github.com/Alejandro1488/frontend-project-44#readme",
-
-"bin": {
-"brain-games": "brain-games.js"
-},
-
-"type":  "module"
-
-
+  "homepage": "https://github.com/Alejandro1488/frontend-project-44#readme",
+  "bin": {
+    "brain-games": "brain-games.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
