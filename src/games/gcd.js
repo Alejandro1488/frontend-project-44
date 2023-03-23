@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-import tekst from '../cli.js';
+import getName from '../cli.js';
 import { answerForm, checkAnswer } from '../index.js';
 import { magicNumbers, getDivisor } from '../math.js';
 
 const gcd = () => {
-  const userName = tekst('Find the greatest common divisor of given numbers.');
+  const userName = getName('Find the greatest common divisor of given numbers.');
   for (let i = 0; i < 3; i += 1) {
     const x = magicNumbers();
     const y = magicNumbers();

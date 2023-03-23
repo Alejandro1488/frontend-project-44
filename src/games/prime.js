@@ -1,9 +1,9 @@
-import tekst from '../cli.js';
+import getName from '../cli.js';
 import { answerForm, checkAnswer } from '../index.js';
 import { magicNumbers, gitPrime } from '../math.js';
 
 const prime = () => {
-  const userName = tekst('Answer "yes" if given number is prime. Otherwise answer "no".');
+  const userName = getName('Answer "yes" if given number is prime. Otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
     const randomNumber = magicNumbers();
     const userAnswer = answerForm(randomNumber, 'string');

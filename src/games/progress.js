@@ -1,10 +1,10 @@
 #!/usr//bin/env node
-import tekst from '../cli.js';
+import getName from '../cli.js';
 import { answerForm, checkAnswer } from '../index.js';
 import { magicNumbers, progression, gitProgress } from '../math.js';
 
 const progress = () => {
-  const userName = tekst('What number is missing in the progression?');
+  const userName = getName('What number is missing in the progression?');
 
   for (let i = 0; i < 3; i += 1) {
     const a = magicNumbers();
