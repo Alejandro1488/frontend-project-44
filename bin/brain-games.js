@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import text from '../src/cli.js';
+import getName from '../src/cli.js';
 
-text();
+getName();
