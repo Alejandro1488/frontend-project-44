@@ -1,21 +1,25 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Alejandro1488/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Alejandro1488/frontend-project-44/actions)",
+  "description": "[![Actions Status](https://github.com/BichaevIvan/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/BichaevIvan/frontend-project-44/actions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alejandro1488/frontend-project-44.git"
+    "url": "git+https://github.com/BichaevIvan/frontend-project-44.git"
   },
+  "keywords": [
+    "ivan"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alejandro1488/frontend-project-44/issues"
+    "url": "https://github.com/BichaevIvan/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/Alejandro1488/frontend-project-44#readme",
+  "homepage": "https://github.com/BichaevIvan/frontend-project-44#readme",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -23,13 +27,17 @@
     "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
-
   },
-  "type": "module",
   "dependencies": {
-    "eslint": "^8.33.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "readline-sync": "^1.4.10"
+    "eslint-plugin-react": "^7.32.2"
   }
 }
